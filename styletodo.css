@@ -1,0 +1,16 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(to right, #C33764 , #1D2671);
+    /* width: 100%; */ 
+}
+
+h2{
+    color: blue;
+    font-style: normal;
+    text-align: center;
+}
+#checklistbox{
+    border: 2px solid black;
+    background-color: gradi;
+}

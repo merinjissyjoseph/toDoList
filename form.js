@@ -2,12 +2,15 @@ let uname=document.getElementById("username").value;
 var pwd=document.getElementById("password").value;
 let formaction=document.getElementById("loginform").value;
 function validate( ){
+    console.log("inside function");
    let uname=document.getElementById("username").value;
     var pwd=document.getElementById("password").value;
     // let demo=document.getElementById("demo").value;
     console.log(document.getElementById("username"));
     if(uname=="admin" && pwd =="12345"){
-        document.getElementById("demo").innerHTML="success";
+        console.log(uname);
+        console.log(pwd);
+        document.getElementById("demo").innerHTML="Success!!";
         // demo.style.color="green";
         // document.getElementById("demo1").innerHTML=uname;
         login();
@@ -22,6 +25,5 @@ function validate( ){
 function login(){
     document.getElementById("loginform").setAttribute("action","./home.html");
     // console.log("inside login function page");
-    //   href="http:www.w3schools.com";
-    //  window.location.href = "http://www.w3schools.com";
+  
 }

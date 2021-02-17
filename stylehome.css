@@ -3,11 +3,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-#navbarNav{
-    background-color:white;
-}
+/* #navbarNav{
+    background-color:black;
+} */
 #items{
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
     color: black;
     /* display: inline-block; */
     float: none;
