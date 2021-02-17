@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="./checklist.png">
+  
+
+      <div class="login">
+        <form id="loginform" onsubmit="  return validate()">
+            <h2>User Login</h2>
+            <br>
+            <div>
+                <label >Username</label>
+             <br>
+             <input type="text" placeholder="Enter Username"  id="username"required>
+             </div>
+             <div>
+                 <label >Password</label>
+              <br>
+              <input type="password" placeholder="Enter Password"    id="password" required>
+              </div>
+              <br>
+              <div>    
+                <button type="submit" >Login</button>
+              </div>
+              <br>
+              <span id="demo"></span>
+             
+        </form>
+     </div>  
+      <script src="form.js"></script>
+</body>
+</html>

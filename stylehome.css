@@ -1,0 +1,15 @@
+body{
+    background-image: url("./checklist.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#navbarNav{
+    background-color:white;
+}
+#items{
+    background-color: #4CAF50;
+    color: black;
+    /* display: inline-block; */
+    float: none;
+    margin-left: 40%;
+}
